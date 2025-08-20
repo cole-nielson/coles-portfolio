@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         siteName: "Cole's Portfolio",
         images: [
             {
-                url: "/hero.png",
+                url: "/hero.png?v=1",
                 width: 1200,
                 height: 630,
                 alt: "Cole Nielson - AI Engineer Portfolio",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         title: "Cole's Portfolio - AI Engineer",
         description:
       "Self-taught AI Engineer passionate about building projects that showcase the real-world potential of AI and automation technologies.",
-        images: ["/hero.png"],
+        images: ["/hero.png?v=1"],
     },
     robots: {
         index: true,
