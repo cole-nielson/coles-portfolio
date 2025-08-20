@@ -10,7 +10,8 @@ const syne = Inter({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://cole-nielson.github.io/coles-portfolio/"),
+    // Use the production domain so social scrapers resolve absolute URLs
+    metadataBase: new URL("https://colesportfolio.com/"),
     title: "Cole's Portfolio",
     description:
     "Cole Nielson - Self-taught AI Engineer passionate about building projects that showcase the real-world potential of AI and automation technologies.",
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
         siteName: "Cole's Portfolio",
         images: [
             {
-                url: "/hero.png?v=1",
+                url: "/hero.png?v=2",
                 width: 1200,
                 height: 630,
                 alt: "Cole Nielson - AI Engineer Portfolio",
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
         title: "Cole's Portfolio - AI Engineer",
         description:
       "Self-taught AI Engineer passionate about building projects that showcase the real-world potential of AI and automation technologies.",
-        images: ["/hero.png?v=1"],
+        images: ["/hero.png?v=2"],
     },
     robots: {
         index: true,
