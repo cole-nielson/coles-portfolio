@@ -1,5 +1,5 @@
 "use client";
-import React, {useState} from "react";
+import React from "react";
 import { useEffectOnce, useEventListener } from 'usehooks-ts';
 
 import PreLoader from "./components/other/PreLoader";
@@ -18,19 +18,13 @@ import Tools from "./sections/Tools.tsx";
 
 export default function Home() {
 
-    const [isMobile, setIsMobile] = useState(false);
-
     useEffectOnce(() => {
         window.scrollTo({
             top: 0,
             left: 0,
         });
-        setIsMobile(window.innerWidth < 768);
     });
 
-    useEventListener('resize', () => {
-        setIsMobile(window.innerWidth < 768);
-    });
 
     useBlobity(
         {

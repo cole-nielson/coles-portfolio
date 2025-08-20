@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-import Logo from "../svg/Logo";
 
 const PreLoader: React.FC = () => {
     useEffect(() => {
